@@ -12,11 +12,11 @@ export default function NavBar() {
   console.log("is open value: ", isOpen);
 
   const navItem = classNames({
-    "text-[#6B7280] hover:bg-[#009A6A] hover:text-white active:bg-[#009A6A] active:text-white rounded-md px-3 py-2 text-sm font-medium":
+    "text-[#6B7280] hover:bg-primary-500 hover:text-[#fff] active:bg-primary-500 active:text-[#fff] rounded-md px-3 py-2 text-sm font-medium":
       true,
   });
   const navItemMobile = classNames({
-    "text-[#6B7280] hover:bg-[#009A6A] hover:text-white active:bg-[#009A6A] active:text-white block rounded-md px-3 py-2 text-base font-medium":
+    "text-[#6B7280] hover:bg-primary-500 hover:text-[#fff] active:bg-primary-500 active:text-white block rounded-md px-3 py-2 text-base font-medium":
       true,
   });
 
