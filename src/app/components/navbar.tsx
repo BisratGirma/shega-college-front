@@ -9,8 +9,6 @@ import { useState } from "react";
 export default function NavBar() {
   const [isOpen, setOpen] = useState(true);
 
-  console.log("is open value: ", isOpen);
-
   const navItem = classNames({
     "text-[#6B7280] hover:bg-primary-500 hover:text-[#fff] active:bg-primary-500 active:text-[#fff] rounded-md px-3 py-2 text-sm font-medium":
       true,
@@ -49,8 +47,8 @@ export default function NavBar() {
                 aria-hidden="true"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                 />
               </svg>
