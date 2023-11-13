@@ -87,19 +87,19 @@ export default function NavBar() {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                <Link href="#" className={navItem} aria-current="page">
+                <Link href="/courses" className={navItem} aria-current="page">
                   Courses
                 </Link>
-                <Link href="#" className={navItem}>
+                <Link href="/subjects" className={navItem}>
                   Subjects
                 </Link>
-                <Link href="#" className={navItem}>
+                <Link href="/students" className={navItem}>
                   Teachers and Students
                 </Link>
-                <Link href="#" className={navItem}>
+                <Link href="/grades" className={navItem}>
                   Grades
                 </Link>
-                <Link href="" className={navItem}>
+                <Link href="/analytics" className={navItem}>
                   Analytics
                 </Link>
               </div>
@@ -123,7 +123,7 @@ export default function NavBar() {
           <Link href="/subjects" className={navItemMobile}>
             Subjects
           </Link>
-          <Link href="teachers-and-students" className={navItemMobile}>
+          <Link href="/students" className={navItemMobile}>
             Teachers and Students
           </Link>
           <Link href="/grades" className={navItemMobile}>
